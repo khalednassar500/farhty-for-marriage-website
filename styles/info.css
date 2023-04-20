@@ -1,0 +1,75 @@
+.ruls {
+  padding: 60px;
+  counter-reset: section;
+  text-align: right;
+  line-height: 1.7em;
+}
+ 
+.ruls-con div {
+  display: flex;
+  justify-content: end;
+  margin: 30px 15px;
+}
+.ruls-con div p {
+  display: flex;
+  width: 800px;
+  justify-content: start;
+  align-items: center;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.ruls-con div p::before {
+  counter-increment: section;
+  content:   counter(section)  ;
+  min-width: 30px ;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #24B3A8;
+  color: #faf9fc;
+  font-weight: bold;
+  margin-left: 15px;
+  
+}
+
+.about-us .main-head  h2 {
+  font-size: 30px;
+  background-color: #fff;
+}
+.about-us {
+  padding: 60px;
+  background: url(../images/back2.png) no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  background-attachment: fixed;
+  color: #0C6980;
+  z-index: -1;
+}
+.info {
+  width: 600px;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0  auto 40vh auto;
+  font-size: 25px;
+  line-height: 1.5em;
+  background-color: #fff;
+}
+
+.privicy-con, .common-ques {
+  margin-bottom: 30px;
+  counter-reset: section;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.privicy-con p, .common-ques p {
+  margin-right: 15px;
+}
+.privicy-con p:not(.n)::before {
+  counter-increment: section;
+  content:   counter(section) ;
+  margin-left: 15px;
+  unicode-bidi:isolate-override;
+  direction: ltr;
+}

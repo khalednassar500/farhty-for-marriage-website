@@ -1,0 +1,143 @@
+.sign-up {
+  width: 800px;
+  margin: 60px auto;
+  text-align: center;
+}
+.form-head {
+  color: #24B3A8;
+  margin-bottom: 30px;
+}
+.sign-up div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 15px 0;
+  position: relative;
+  background-color: #faf9fc;
+  padding: 5px;
+}
+.sign-up input, textarea {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  resize: vertical;
+}
+.sign-up div.note {
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.note span {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  font-weight: lighter;
+  color: gray;
+}
+.sign-up select {
+  width: 30%;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+input:focus, 
+select:focus,
+textarea:focus {
+  transition: 0.2s;
+  background-color: rgba(36, 179, 168, 0.1);
+  border: 2px solid #24B3A8;
+}
+
+button {
+  background-color: #24B3A8;
+  color: #faf9fc;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: lightgray 0px 13px 27px -5px, lightgray 0px 8px 16px -8px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  margin: 15px auto;
+}
+button:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+}
+.sign-up div.agree {
+  justify-content: end;
+
+}
+.agree input {
+  width: 50px;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  padding: 0;
+}
+
+.contacts {
+  padding: 60px;
+}
+.con-info {
+  margin-bottom: 30px;
+}
+.con-info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  color: #156760;
+  text-decoration: none;
+  font-size: 25px;
+}
+.con-info img {
+  width: 30px;
+  margin-left: 15px;
+}
+.contacts .footer-l {
+  justify-content: center;
+}
+.contacts .footer-l img {
+  width: 50px;
+}
+.contacts .footer-l a {
+  margin: 0 60px;
+}
+
+.p-i {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+  flex-wrap: wrap;
+}
+.p-i p {
+  margin: 30px 0;
+}
+.p-i h3 {
+  color: #156760;
+}
+.p-i p span {
+  color: #24B3A8;
+  margin-left: 15px;
+}
+.req {
+  margin: 30px 0;
+}
+.req-text {
+  border: 2px solid #24B3A8;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+button.delete {
+  background-color: rgba(255, 99, 71, 0.5);
+  color: #000;
+}
+button.delete:hover {
+  background-color: tomato;
+}
+.name {
+  color: #0C6980
+}

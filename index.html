@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <title>منصة فرحتى للزواج | الرئيسية</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="اعثر على شريك حياتك المثالي معنا دعنا نساعدك في العثور على شريك زواج تعارف شريك حياه موقع فرحتى  ">
+    <meta name="description" content="موقع فرحتى للزواج و التعارف على شريك الحياه المستقبلى A farhty website for marriage and dating a future life partner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./icons/logo.png">
+    <link rel="stylesheet" type="text/css" href="./styles/cite.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <section class="loading-page" id="loading">  <!-- loading page-->
+      <p>♥ ♥ ♥</p>
+      <p>جاري التحميل</p>
+    </section>
+
+    <nav>
+
+      <div class="for-res res" id="nav-res">
+        <div>
+          <button class="close" onclick="toggleNav()">✕</button>
+            <a class="sign-up-link" href="./user/register.html" onclick="toggleNav()">انضم الآن</a>
+            <a href="./user/user-page.html" onclick="toggleNav()">بياناتى الشخصيه</a>
+            <a href="#" class="active" onclick="toggleNav()">الرئيسية</a>
+            <a href="./info/about.html" onclick="toggleNav()">من نحن</a>
+            <a href="./info/information.html" onclick="toggleNav()">معلومات عن المنصه</a>
+            <a href="./info/rules.html" onclick="toggleNav()">تعليمات</a>
+            <a href="./user/login.html" onclick="toggleNav()"> تسجيل دخول  </a>
+            <a href="./user/contacts.html" onclick="toggleNav()">تواصل معنا</a>
+            <a href="#search" onclick="toggleNav()"> ابحث عن </a>
+            <a href="#" onclick="toggleNav()">تسجيل خروج</a>
+          </div>
+      </div>
+
+      <div class="nav-top-links">
+        <div class="n-t-l">
+          <a href="./user/login.html"> تسجيل دخول <img src='./icons/user.svg' alt='user icon' > </a>
+          <span >|</span>
+          <a href="./user/contacts.html">تواصل معنا</a>
+          <span>|</span>
+          <a href="#search"> ابحث عن <img class="search-icon" src='./icons/search.svg' alt='search icon' ></a>
+        </div>
+
+        <div class="res-link open" onclick="toggleNav()">☰</div>
+       
+        <div class="logo">
+          <img src="./icons/logo.png">
+        </div>
+      </div>
+
+      <div class="nav-bottom-links">
+        <div class="n-b-l">
+          <a href="#" class="active">الرئيسية</a>
+          <a href="./info/about.html">من نحن</a>
+          <a href="./info/information.html">معلومات عن المنصه</a>
+          <a href="./info/rules.html">تعليمات</a>
+        </div>
+        <div>
+          <a class="sign-up-link" href="./user/register.html">انضم الآن</a>
+        </div>
+        <div class=" nav-personal  non-active">
+          <div class="nav-personal-icon">
+            <img src="./icons/user-page.svg" alt="user">
+          </div>
+          <div class="nav-personal-links">
+            <a href="./user/user-page.html">بياناتى الشخصيه</a>
+            <a href="#">تسجيل خروج</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id='slide-show'>
+      <section class="header-item active" id="header-item-1">
+        <section class="header-item-img">
+          <img src="./images/wedding3.jpg" alt="wedding">
+        </section>
+
+        <section class="header-item-text">
+          <h1>اعثر على شريك حياتك المثالي معنا</h1>
+          <p>   دعنا نساعدك في العثور على شريك - اشترك الآن مجانا</p>
+          <a href="./user/register.html">انضم الآن</a>
+          <img src="./images/back.jpg" alt="back hearts">
+        </section>
+      </section>
+
+      <section class="header-item" id="header-item-2">
+        <section class="header-item-img">
+          <img src="./images/wedding1.jpg" alt="wedding">
+        </section>
+        <section class="header-item-text">
+          <h1>انضم إلى مجتمعنا وابحث عن توأم روحك</h1>
+          <p>لا تنتظر أن يجدك الحب - تحكم واشترك الآن</p>
+          <a href="./user/register.html">انضم الآن</a>
+          <img src="./images/back.jpg" alt="back hearts">
+        </section>
+      </section>
+
+      <section class="header-item " id="header-item-3">
+        <section class="header-item-img">
+          <img src="./images/wedding2.jpg" alt="wedding">
+        </section>
+        <section class="header-item-text">
+          <h1>سعادتك الأبدية تبدأ هنا</h1>
+          <p>ابحث عن الحب بنقرة واحدة</p>
+          <a href="./user/register.html">انضم الآن</a>
+          <img src="./images/back.jpg" alt="back hearts">
+        </section>
+      </section>
+
+      <section class="arrows">
+        <div id="left-arrow" onclick="la()">
+          〈
+        </div>
+        <div id="right-arrow" onclick="ra()">
+          〉
+        </div>
+      </section>
+    </header>
+
+    <h2 class="quote">  ❁  إنَّ الزَّواجَ تَعَفُفٌ وَطَهُور  ❁  </h2>
+
+    <section class="features">
+      <div>
+        <img src="./icons/maoney.svg" alt="money">
+        <p>الإشتراك مجانى</p>
+      </div>
+      <div>
+        <img src="./icons/group.svg" alt="group of people">
+        <p>سهوله الوصول الى شريك حياتك المستقبلى</p>
+      </div>
+      <div>
+        <img src="./icons/managers.svg" alt="managers">
+        <p>مسؤولين موجودين على مدار الساعه</p>
+      </div>
+    </section>
+
+    <main  id="search">
+      <div class="main-head">
+        <span></span>
+        <h2>ابحث عن شريك حياتك</h2>
+        <span></span>
+      </div>
+      
+      <section class="users-all-data">
+        <div class="users-filter">
+          <select id="countery"> 
+            <option value="">الدولة</option>
+            <option value="saudi-arabia">السعودية</option>
+            <option value="kuwait">الكويت</option>
+            <option value="bahrain">البحرين</option>
+            <option value="emirates">الإمارات العربية المتحدة</option>
+            <option value="oman">عمان</option>
+            <option value="qatar">قطر</option>
+            <option value="yemen">اليمن</option>
+            <option value="comoros">جزر القمر</option>
+            <option value="somalia">الصومال</option>
+            <option value="mauritania">موريتانيا</option>
+            <option value="sudan"> السودان</option>
+            <option value="algeria">الجزائر</option>
+            <option value="tunisia">تونس</option>
+            <option value="libya"> ليبيا</option>
+            <option value="morocco">المغرب</option>
+            <option value="egypt">مصر</option>
+            <option value="iraq">العراق</option>
+            <option value="palestine">فلسطين</option>
+            <option value="lebanon">لبنان</option>
+            <option value="syria">سوريا</option>
+            <option value="jordan">الأردن</option>
+            <option value="jibouti">جيبوتى</option>
+          </select>
+
+          <select id="marriageType">
+            <option value="">نوع الزواج</option>
+            <option value="normal">زواج عادى</option>
+            <option value="multiplicity">زواج تعدد</option>
+            <option value="misyar">زواج مسيار</option>
+            <option value="people-of-determination">زواج زوى الهمم</option>
+          </select>
+
+          <select id="gender">
+            <option value="">الجنس</option>
+            <option value="mans">الرجال</option>
+            <option value="women">النساء</option>
+          </select>
+          
+          <div class="search-bar">
+            <input id="by-code" type="number" placeholder="الكود">
+            <p>ابحث عن طريق </p>
+          </div>
+        </div>
+
+        <div class="table-data">
+          <table class="display">
+            <thead>
+                <tr>
+                  <tr>
+                    <th>الأصل</th>
+                    <th>الجنس</th>
+                    <th>المهنة</th>
+                    <th>لون البشرة</th>
+                    <th>العمر</th>
+                    <th>الحالة</th>
+                    <th>المدينة</th>
+                    <th>الدولة</th>
+                    <th>الجنسية</th>
+                    <th>الكود</th>
+                  </tr>
+                </tr>
+            </thead>
+            <tbody  id="users"> </tbody>
+          </table>
+        </div>
+
+        <div class="pagenation" id="pagenation">
+          <button id='decrease-counter'>«</button>
+          <input type="number" id="counter" value="1" min="1">
+          <span> / </span>
+          <p id="items-length"></p>
+          <button id='increase-counter'>»</button>
+        </div>
+      </section>
+    </main>
+
+    <section class="opinions">
+      <div class="main-head">
+        <span></span>
+        <h2>آراء عملائنا</h2>
+        <span></span>
+      </div>
+      
+      <div class="op-con" id="opinions">
+        <div class="op active">
+          <p>❝ شكرا جزيلا لكل اعضاء الموقع الكرام وكل من ساعدنى فى ان أجد شريك حياتى لا تعلمون كم انا سعيده الان ❞</p>
+        </div>
+
+        <div class="op">
+          <p>❝ انا بصراحه حابب اشكر اصحاب الموقع لانهم ساعدونى انى الاقى شريكة حياتى ❞</p>
+        </div>
+
+        <div class="op">
+          <p>❝ اوجه رسالتى للقائمين على هذا العمل الرائع وبالاخص المشرف لانو ما قصر معى صراحة واحب اشكركم كلكم ❞</p>
+        </div>
+  
+        <section class="arrows">
+          <div id="op-left-arrow">
+            〈
+          </div>
+          <div id="op-right-arrow">
+            〉
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="calc">
+      <img  class="calc-b-i" src="./images/back.jpg" alt="hearts">
+      <h3>منصة فرحتى للزواج فى أرقام</h3>
+      <div class="calc-nums">
+        <div>
+          <img src="./icons/icon-add-user.svg" alt="">
+          <p>إجمالى الزوار</p>
+          <p>29292</p>
+        </div>
+        <div>
+          <img src="./icons/icon-add-user.svg" alt="">
+          <p>عدد  الموفقين فى ايجاد شريك    </p>
+          <p>2929</p>
+        </div>
+        <div>
+          <img src="./icons/icon-add-user.svg" alt="">
+          <p>عدد الطلبات</p>
+          <p>29251</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-r">
+        <a href="./info/privacy-policy.html">سياسة الخصوصيه</a>
+        <a href="./info/common-questions.html"> الأسئلة الشائعة</a>
+      </div>
+      <div class="footer-l">
+        <a href="#">
+          <img src="./icons/tiktok.svg" alt="tiktok">
+        </a>
+        <a href="#">
+          <img src="./icons/snap.svg" alt="snapchat">
+        </a>
+        <a href="#">
+          <img src="./icons/insta.svg" alt="instagram">
+        </a>
+        <p>تابعنا على</p>
+      </div>
+    </footer>
+    <div class="page-bottom">
+      <p>Made By <a href='https://khalednassar500.github.io/k-n/' target="_blank">K_N</a></p>
+      <p>جميع الحقوق محفوظة لمنصة فرحتى للزواج © 2023</p>
+    </div>
+
+    <script src="./javascript/site.js"></script>
+    <script src="./javascript/function.js"></script>
+</body>
+</html>
